@@ -1,6 +1,7 @@
 git init - create local repo
 git status - check status of local repo
 git add file_name - add file to index
+git add * or . - add all files to index
 git commit -m"message" - create commit
 git log --graph - show all commits
 git checkout hash_sum_commit - move to commit with given hash_sum
