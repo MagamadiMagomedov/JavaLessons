@@ -1,0 +1,28 @@
+git init - create local repo
+git status - check status of local repo
+git add file_name - add file to index
+git commit -m"message" - create commit
+git log --graph - show all commits
+git checkout hash_sum_commit - move to commit with given hash_sum
+git push url_remote_repo or pseudonim branch_name - push commits to remote repo
+git remote add pseudonim_name url_remote_repo - add pseudonim
+git remote -v - show all pseudonims
+git clone url_remote_repo dir_name - cloning project
+git pull url_remote_repo or pseudonim branch_name - pull commits to remote repo
+gitk - open editor
+
+Branches
+
+git branch - show all branches
+git branch branch_name - create branch without move to it
+git checkout -b branch_name - create branch with move to it
+git checkout branch_name - move to branch with given name
+git merge branch_name - merge two branches
+git branch -d branch_name - delete branch with given name
+git branch(other command) --info - show info for given command
+
+Stash
+git stash save "Message for stash" - create stash
+git stash apply stash@{number} - apply stash
+git stash list - show all stashes
+git stash clear - delete all stashes

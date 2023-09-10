@@ -1,0 +1,31 @@
+1) Имеется строка, к примеру "Hello my young dog".
+Необходимо перевернуть строку в след. формате "godgn uo yymol leH".
+То есть после реверса длина слова равнялась изначальной длине.
+
+
+ public static void main(String[] args) {
+
+        String str = "Don't speak my English";
+
+        String replacedStr = str.replaceAll(" ", "");
+
+        String s = new StringBuilder(replacedStr).reverse().toString();
+        String[] words = str.split(" ");
+
+        StringBuilder builder = new StringBuilder();
+
+        for (String word : words) {
+            int length = word.length();
+            String value = s.substring(0, length);
+
+            builder.append(value).append(" ");
+            s = s.substring(length);
+        }
+
+        System.out.println(builder);
+
+    }
+2) В заданной строке посчитать количество точек и запятых.
+3) Declare two local variables myStr1 and myStr2 of String type and assign a value “Cartoon” for first string and ”Tomcat”
+   for second.
+   Write code to display all of the letters, which are present in the first word, but absent in the second.

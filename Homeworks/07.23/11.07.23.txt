@@ -1,0 +1,36 @@
+1) Create a class called EmailTask2.
+      Assume that email address is constructed by person's first name and followed by an underscore and last name.
+
+      Write a program that will print out information about user based on email. Print first name, last name, and domain.
+
+      First and Last name should be printed with proper format - uppercase first letter and remaining lowercase.
+
+              Ex:
+                  input:
+                      craig_federighi@apple.com
+
+               Output:
+                   First name: Craig
+                   Last name: Federighi
+                   Domain: apple
+
+2) Create a class named CombineWords. Then add them together and print.
+                          But if the last letter if the first word and the first letter
+                          of the last letter is the same, print that character once.
+                                      Input:
+                                          one
+                                          eight
+                                      Output:
+                                          oneight
+
+3) Print first word without its first character
+ then print the second word without its first character.
+                                                         Input:
+                                                             apple
+                                                             banana
+                                                         Output:
+                                                             ppleanana
+
+4) Дано слово. Переставить первые три и последние три буквы, сохранив порядок их следования.
+
+Task9 do in lesson

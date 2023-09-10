@@ -1,0 +1,4 @@
+1) Написать программу, которая печатает в консоль числа от 20 до 70 при условии, что числа больше 25 и четные.
+2) Написать программу, которая печатает в консоль числа от 15 до 55 при условии, что числа больше 20 и нечетные.
+3) Write a program that create an integer variable with value 100 and decreasing by 1 in every
+loop iteration until the value of the variable won’t reach 50.

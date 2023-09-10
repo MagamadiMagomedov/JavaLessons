@@ -1,0 +1,7 @@
+ctrl + d - duplication code
+ctrl + shift + f10 - run psvm
+ctrl + y - delete line
+ctrl + / - oneline comment
+ctrl + shift + / - manyline comment
+ctrl + shift + enter -create body + format code + move to body
+shift + F6 - rename file, dir etc.

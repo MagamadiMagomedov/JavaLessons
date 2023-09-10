@@ -1,0 +1,7 @@
+1) Create a class "Human". A human should have the following attributes: salary, age, height.
+   Requirements:
+   a) Create a class Human with all the required fields to store the information (variable types you could choose by yourself).
+   b) Add to the class a constructor with parameters which initialize all the fields.
+
+2) Создать класс, в котором будут два метода(для операций + и -) с одним входящим параметром и возвращать значение.
+   В методе генерировать случайное число и к нему добавлять(в методе +) или отнимать(в методе -) входящий параметр.
